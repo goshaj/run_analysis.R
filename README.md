@@ -2,7 +2,10 @@
 Coursera project
 
 This is the final project of the Getting and Cleaning Data course offered by Johns Hopkins University on Coursera.
-The steps of the project are as follows:
+
+The data and transformations are examined in the codebook.
+
+The steps of the project were as follows:
 
 1. Merge the training and the test sets to create one data set.
 2. Extract only the measurements on the mean and standard deviation for each measurement.
