@@ -51,4 +51,4 @@ for(i in 4:ncol(data)){
 
 colnames(Tidy)[3:ncol(Tidy)] <- colnames(MeanSD)
 
-write.table(Tidy, file = "data_final.txt")
+write.table(Tidy, file = "data_final.txt", row.names = FALSE)
