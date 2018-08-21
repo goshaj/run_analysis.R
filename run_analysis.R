@@ -1,10 +1,13 @@
-train.x <- read.table("./data/train_x.txt")
-test.x <- read.table("./data/test_x.txt")
-train.y <- read.table("./data/train_y.txt")
-test.y <- read.table("./data/test_y.txt")
-subject_train <- read.table("./data/subject_train.txt")
-subject_test <- read.table("./datasubject_test.txt")
-activity_lables <- read.table("./data/activity_labels.txt")
+# Step 0 - Read files
+train.x <- read.table("./data/UCI HAR Dataset/train/train_x.txt")
+train.y <- read.table("./data/UCI HAR Dataset/train/train_y.txt")
+subject_train <- read.table("./data/UCI HAR Dataset/train/subject_train.txt")
+
+test.x <- read.table("./data/UCI HAR Dataset/test/test_x.txt")
+test.y <- read.table("./data/UCI HAR Dataset/test/test_y.txt")
+subject_test <- read.table("./data/UCI HAR Dataset/test/datasubject_test.txt")
+
+activity_lables <- read.table("./data/UCI HAR Dataset/activity_labels.txt")
 features <- read.table("./data/features.txt")
 
 # Step 1 - Merge
